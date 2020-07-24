@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Slayer</name>
+		<description>The Slayer class.</description>
+		<author url="https://www.dmsguild.com/product/276205/The-Slayer-Class">Purple Aether Games</author>
+		<update version="0.3.1">
+			<file name="class-slayer.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-wizard.xml" />
+		</update>
+	</info>
+
+	<element name="Slayer" type="Class" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_SLAYER">
+		<description>
+			<p>The elf crouched down close to the dirty stone floor. She'd been told there was no way to track this beast, but she was no ordinary hunter. It had definitely come this way.</p>
+			<p class="indent">Colored strings criss-crossed over the assortment of notes and documents covering the wall of the tiefling's study. He stood silently, fingers steepled in thought, before whispering to himself: "The coronation. He'll be posing as waitstaff. But so will I."</p>
+			<p class="indent">The dwarf fled into the forest, panicked. He ran for several minutes before finally stopping to catch his breath and look around. There was no sign of his pursuer. Satisfied, he straightened up and smiled, then felt a blade in his back and the burning of poison throughout his body. He hit the ground without ever knowing who killed him.</p>
+			<h4>THE HUNT IS ON</h4>
+			<p>Adventurers take all sorts of approaches to staying ahead of the specter of death. Some meet their foes in open combat while others use tricks and illusions to manipulate circumstances to their advantage. Still others identify a threat, track it down, and slay it — this is the path of the slayer.</p>
+			<p class="indent">Slayers are cunning warriors, using their wits to hunt their prey and take them out efficiently. Some hunt monsters in the wilderness, some slip poison into a noble's drink, and some stab you in the back without ever being seen. Whatever the method, a slayer knows where you've been and where you're going, and has no intention of fighting fair.</p>
+			<h4>GRIM TRACKERS</h4>
+			<p>Slayers don't always have a shiny reputation. They have no sparkly magic tricks to impress people, and no gleaming armor covered in medals of valor. Their work is deadly and efficient, which can often lead others to look at them as amoral assassins.</p>
+			<p class="indent">While this certainly does describe some slayers, others are just as heroic as any storied warrior — they've just chosen a more pragmatic method of operation. They might hunt down monsters or wanted fugitives to keep people safe, or they might serve as a scout and bodyguard for a noble whose work they believe in.</p>
+            <p class="indent">The common thread among slayers is not their motives, but their methods. Whether for selfish or altruistic reasons, a slayer chooses a target and can track them nearly anywhere. Once the slayer catches up with their quarry, they strike with focused determination.</p>
+			<h4>CREATING A SLAYER </h4>
+			<p>As you prepare to make your slayer character, consider what might drive them to choose such a path. Are they simply a very cautious adventurer, avoiding unnecessary risks by always trying to have the upper hand against monsters? Do they have a morbid fascination with poisons? Perhaps they hunt down criminals in pursuit of vigilante justice, or maybe they hunt monsters for money because they feel like that's the only thing they're good at?</p>
+			<p class="indent">Once your character learned the first abilities of being a slayer, what motivated them to become an adventurer and join a party? Do they have an attachment to one of their party members? Is it a matter of practicality, wanting to have a group of allies for those times when sneaking up on your enemy isn't feasible? Or perhaps it was the only job they could find at the moment, or they were otherwise forced into an adventuring group by circumstance?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can create a slayer quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Intelligence. Second, choose the outlander background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a slayer, you gain the following class features:</p>
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d10 per slayer level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per slayer level after 1st</li>
+			</ul>
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+				<li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+				<li><strong>Tools:</strong> Poisoner's kit</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
+				<li><strong>Skills:</strong> Choose three from Athletics, Acrobatics, Animal Handling, Insight, Investigation, Nature, Perception, Stealth, and Survival</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>A longbow and 20 arrows</li>
+				<li>Any two martial weapons</li>
+				<li>(a) a dungeoneer's pack or (b) an explorer's pack</li>
+                <li>(a) leather armor or (b) scale mail and a shield</li>
+                <li>A poisoner's kit</li>
+			</ul>
+			<h5 class="caption">THE SLAYER</h5>
+			<table class="class-features">
+				<thead>
+			 		<tr><th class="col-5">Level</th><th class="col-10">Proficiency Bonus</th><th class="left">Features</th></tr>
+				</thead>
+				<tr><td>1st</td><td>+2</td><td class="left">Cunning Tracker</td></tr>
+				<tr><td>2nd</td><td>+2</td><td class="left">Poisoner, Slayer's Focus</td></tr>
+				<tr><td>3rd</td><td>+2</td><td class="left">Ambusher, Slayer's Specialty</td></tr>
+				<tr><td>4th</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>5th</td><td>+3</td><td class="left">Extra Attack</td></tr>
+				<tr><td>6th</td><td>+3</td><td class="left">Eyes of the Hunter</td></tr>
+				<tr><td>7th</td><td>+3</td><td class="left">Specialty Feature</td></tr>
+				<tr><td>8th</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>9th</td><td>+4</td><td class="left">Unwavering Focus</td></tr>
+				<tr><td>10th</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>11th</td><td>+4</td><td class="left">Evasion, Slayer's Focus (+1d6)</td></tr>
+				<tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td>+5</td><td class="left">Specialty Feature</td></tr>
+				<tr><td>14th</td><td>+5</td><td class="left">Inevitable</td></tr>
+				<tr><td>15th</td><td>+5</td><td class="left">Poison Master</td></tr>
+				<tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td>+6</td><td class="left">Blindsight, Slayer's Focus (+2d6)</td></tr>
+				<tr><td>18th</td><td>+6</td><td class="left">Specialty Feature</td></tr>
+				<tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td>+6</td><td class="left">Apex Predator</td></tr>
+			</table>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_CUNNINGTRACKER" />
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_POISONER" />
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_SLAYERS_FOCUS" />
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_AMBUSHER" />
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_SLAYERS_SPECIALITY" />
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_SLAYER" />
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EXTRAATTACK" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EYESOFTHEHUNTER" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_UNWAVERINGFOCUS" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EVASION" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_INEVITABLE" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_POISONMASTER" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_BLINDSIGHT" />
+            <div element="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_APEXPREDATOR" />
+
+		</description>
+		<sheet display="false">
+			<description>A master tracker, specializing in the art of assassintion to take down enemies efficiently.</description>
+		</sheet>
+		<setters>
+			<set name="short">A master tracker, specializing in the art of assassintion to take down enemies efficiently.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+			<select type="Proficiency" name="Skill Proficiency (Slayer)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="3" requirements="!ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_CUNNINGTRACKER" level="1"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_POISONER" level="2"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_SLAYERS_FOCUS" level="2"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_AMBUSHER" level="3"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_SLAYERS_SPECIALITY" level="3"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_SLAYER" level="4"/>	
+            <grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EXTRAATTACK" level="5"/>
+            <grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EYESOFTHEHUNTER" level="6"/>
+            <grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_UNWAVERINGFOCUS" level="9"/>
+            <grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EVASION" level="11"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_INEVITABLE" level="14"/>
+			<grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_POISONMASTER" level="15"/>
+            <grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_BLINDSIGHT" level="17"/>
+            <grant type="Class Feature" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_APEXPREDATOR" level="20"/>
+		</rules>
+		<multiclass id="ID_JACOBSKELLOGG_DMSGUILD_MULTICLASS_SLAYER">
+			<prerequisite>Intelligence 13 and Dexterity 13</prerequisite>
+			<requirements>([int:13]||[dex:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Cunning Tracker" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_CUNNINGTRACKER">
+		<description>
+			<p>Your sharpness of mind makes you a formidable hunter of any prey. Starting at 1st level, whenever you make a Wisdom (Survival) check to track one or more creatures, you can add your Intelligence modifier to the check.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make a Wisdom (Survival) check to track one or more creatures, you can add your Intelligence modifier to the check.</description>
+        </sheet>
+	</element>
+	<element name="Poisoner" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_POISONER">
+		<description>
+			<p>Starting at 2nd level, you are well-versed in the use of poison, granting you several benefits:</p>
+			<p>First, you have advantage on any ability checks you make to harvest or create poisons. Second, the gold and time you must spend to create a dose of poison is halved. Finally, you can apply a dose of poison to a weapon or ammunition as a bonus action instead of an action.</p>
+        </description>
+		<sheet>
+			<description>You have advantage on any ability checks you make to harvest or create poisons. Also, the gold and time you must spend to create a dose of poison is halved. Finally, you can apply a dose of poison to a weapon or ammunition as a bonus action instead of an action.</description>
+        </sheet>
+	</element>
+	<element name="Slayer's Focus" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_SLAYERS_FOCUS">
+		<description>
+			<p>Also at 2nd level, you learn how to use your wits when engaging your target. You can use a bonus action to designate one creature you can see as your quarry. This effect remains in place until you finish a long rest, but ends early if you are incapacitated or if you use this ability again.</p>
+            <p class="indent">Additionally, You can add your Intelligence modifier to any Wisdom (Perception) checks you make to find your quarry, as well as to the damage dealt by your weapon attacks against it.</p>
+			<p>This bonus damage increases by 1d6 when you reach 11th level in this class, and by another 1d6 (2d6) when you reach 17th level.</p>
+		</description>
+		<sheet usage="Bonus Action">
+			<description> You can use a bonus action to designate one creature you can see as your quarry. This effect remains in place until you finish a long rest, but ends early if you are incapacitated or if you use this ability again. Also, add your Intelligence modifier to any Wisdom (Perception) checks you make to find your quarry, as well as to the damage dealt by your weapon attacks against it. The bonus damage to your quarry increases by 1d6 at 11th level in this class, and by 2d6 at 17th level.</description>
+		</sheet>
+    </element>
+	<element name="Ambusher" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_AMBUSHER">
+		<description>
+		    <p>Beginning at 3rd level, you are adept at getting the jump on your foes. You can add your Intelligence modifier to your initiative rolls.</p>
+		        <p class="indent">Additionally, once per turn when you use the Attack action to attack the target of your slayer's focus feature, if that creature hasn't taken a turn in the combat yet or is unaware of your attack, you can make one additional weapon attack against the same creature as part of the same action.</p>
+        </description>
+		<sheet>
+			<description>Add your Intelligence modifier to your initiative rolls. In addition, once per turn when you use the Attack action to attack the target of your slayer's focus feature, if that creature hasn't taken a turn in the combat yet or is unaware of your attack, you can make one additional weapon attack against the same creature as part of the same action. </description>
+        </sheet>
+	</element>
+	<element name="Slayer's Specialty" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_SLAYERS_SPECIALITY">
+		<description>
+			<p>Your career as a slayer can take many forms, represented by a specialty you choose at 3rd level: the Bounty Hunter, the Ghostkiller, the Monster Hunter, the Ninja or the Fiend Hunter.</p>
+            <p class="indent">Your specialty grants you features when you choose it at 3rd level, and again at 7th, 13th, and 18th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Slayers Specialty" supports="Slayers Specialty" level="3" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_SLAYER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Slayer 4)" supports="Improvement Option,Slayer,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Slayer 8)" supports="Improvement Option,Slayer,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Slayer 10)" supports="Improvement Option,Slayer,10" level="10" />
+			<select type="Class Feature" name="Improvement Option (Slayer 12)" supports="Improvement Option,Slayer,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Slayer 16)" supports="Improvement Option,Slayer,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Slayer 19)" supports="Improvement Option,Slayer,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EXTRAATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			</description>
+		<sheet>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Eyes of the Hunter" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EYESOFTHEHUNTER">
+		<description>
+			<p>Starting at 6th level, you can see normally in both magical and nonmagical darkness out to a distance of 120 feet.</p>
+		</description>
+       <sheet display="false">
+			<description>You can see normally in both magical and nonmagical darkness up to a distance of 120 feet.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" level="6" /> 
+		</rules>
+	</element>
+	<element name="Unwavering Focus" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_UNWAVERINGFOCUS">
+		<description>
+			<p>Beginning at 9th level, you always know the location of your slayer's focus quarry as long as it's within 120 feet of you, even if the creature is hidden or invisible.</p>
+			<p class="indent">When you make a weapon attack against your quarry and can't see it, your inability to see it does not impose disadvantage on your attack roll.</p>
+		</description>
+		<sheet>
+			<description>You always know the location of your slayer's focus quarry as long as it's within 120 feet of you, even if the creature is hidden or invisible. When you make a weapon attack against your quarry and can't see it, your inability to see it does not impose disadvantage on your attack roll.</description>
+        </sheet>
+    </element>
+	<element name="Evasion" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_EVASION">
+		<description>
+			<p>Starting at 11th level, when you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+         <sheet>
+			<description>When you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail</description>
+		</sheet>
+	</element>
+	<element name="Inevitable" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_INEVITABLE">
+		<description>
+			<p>By 14th level, your skill at tracking your quarry borders on the supernatural. Whenever you make a Wisdom (Survival) check to track one or more creatures, you can treat a d20 roll of 9 or lower as a 10.</p>
+			<p class="indent">Additionally, you are unhindered by magic meant to obscure tracks or otherwise directly interfere with tracking. For example, a creature which had traveled while under the effects of a pass without trace spell would be no more difficult for you to track than if the creature had not been affected by that spell.</p>
+		</description>
+        <sheet>
+			<description>Whenever you make a Wisdom (Survival) check to track one or more creatures, you can treat a d20 roll of 9 or lower as a 10. Additionally, you are unhindered by magic meant to obscure tracks or otherwise directly interfere with tracking.</description>
+		</sheet>
+	</element>
+	<element name="Poison Master" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_POISONMASTER">
+		<description>
+			<p>Beginning at 15th level, you have become so experienced with poison that it doesn't faze you. You are immune to poison damage and the poisoned condition.</p>
+			<p class="indent">Additionally, the amount of time it takes you to craft poison is reduced to one quarter the normal amount of time.</p>
+			</description>
+        <sheet>
+			<description>You are immune to poison damage and the poisoned condition. Additionally, the amount of time it takes you to craft poison is reduced to one quarter the normal amount of time.</description>
+		</sheet>
+        <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+		</rules>
+	</element>	
+	<element name="Blindsight" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_BLINDSIGHT">
+		<description>
+			<p>At 17th level, you have supernaturally sharp senses, allowing you to clearly perceive that which you cannot see. You gain blindsight out to a range of 15 feet.</p>
+		</description>
+        <sheet display="false">
+			<description>You gain blindsight out to a range of 15 feet.</description>
+		</sheet>
+        <rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT"/>
+			<stat name="blindsight:range" value="15" bonus="base" />
+		</rules>
+	</element>	
+	<element name="Apex Predator" type="Class Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_CLASS_FEATURE_APEXPREDATOR">
+		<description>
+			<p>When you reach 20th level, you are a paragon of the hunt. Your attacks against the target of your slayer's focus feature are made with advantage and score a critical hit on a roll of 19 or 20.</p>
+		</description>
+        <sheet>
+			<description>Your attacks against the target of your slayer's focus feature are made with advantage and score a critical hit on a roll of 19 or 20.</description>
+		</sheet>
+	</element>	
+	
+	<!-- Ghostkiller Specialty -->
+	<element name="Ghostkiller" type="Archetype" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_SPECIALTY_GHOSTKILLER">
+		<supports>Slayers Specialty</supports>
+		<description>
+			<p>The preferred targets of some slayers are the unquiet dead. You specialize in hunting and slaying everything from stray zombies to vengeful ghosts, from decadent vampires to power-hungry liches.</p>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_HALLOWED_BLADES"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_LORE_OF_UNDEATH"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_GHASTLY_AWARENESS"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_UNQUENCHABLE_SOUL"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_SPIRIT_DRAIN"/>
+		</description>
+		<sheet display="false">
+			<description>You specialize in hunting and slaying everything from stray zombies to vengeful ghosts, from decadent vampires to power-hungry liches.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_HALLOWED_BLADES" level="3"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_LORE_OF_UNDEATH" level="3"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_GHASTLY_AWARENESS" level="7"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_UNQUENCHABLE_SOUL" level="13"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_SPIRIT_DRAIN" level="18"/>
+		</rules>
+	</element>
+	<element name="Hallowed Blades" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_HALLOWED_BLADES">
+		<description>
+			<p>Starting when you pick this specialty at 3rd level, the bonus damage from your slayer's focus ability is radiant damage. If your quarry is undead, this damage increases by 1d6.</p>
+		</description>
+		<sheet>
+		<description>The bonus damage from your slayer's focus ability is radiant damage. If your quarry is undead, this damage increases by 1d6.</description>
+		</sheet>
+	</element>
+	<element name="Lore of Undeath" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_LORE_OF_UNDEATH">
+		<description>
+		<p>Also at 3rd level, you gain advantage on any Intelligence checks made to learn or recall information about undead.</p>
+		</description>
+		<sheet>
+		<description>You gain advantage on any Intelligence checks made to learn or recall information about undead.</description>
+		</sheet>
+	</element>
+	<element name="Ghastly Awareness" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_GHASTLY_AWARENESS">
+		<description>
+			<p>Beginning at 7th level, you have learned to hone your senses against the restless dead. As an action, you can open your awareness to detect undead creatures. For the next minute, you know the location of any such creatures within 60 feet of you, even if they are behind total cover.</p>
+			<p class="indent">You can use this feature a number of times equal to your Intelligence modifier (minimum once). When you finish a long rest, you regain all expended uses.</p>		
+		</description>
+		<sheet usage="{{ghastly awareness:count}}/Long Rest" acion="Action">
+			<description> As an action, you can open your awareness to detect undead creatures. For the next minute, you know the location of any such creatures within 60 feet of you, even if they are behind total cover.</description>
+		</sheet>		
+		<rules>
+			<stat name="ghastly awareness:count" value="0" />
+			<stat name="ghastly awareness:count" value="intelligence:modifier" />
+		</rules>
+	</element>
+	<element name="Unquenchable Soul" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_UNQUENCHABLE_SOUL">
+		<description>
+			<p>By 13th level, your spirit is hardened against the horrors of the living dead. You have resistance to necrotic damage, and your ability scores and hit point maximum can't be reduced by the abilities of undead creatures.</p>
+		</description>
+		<sheet>
+		<description>You have resistance to necrotic damage, and your ability scores and hit point maximum can't be reduced by the abilities of undead creatures.</description>
+		</sheet>
+        <rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Spirit Drain" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_SPIRIT_DRAIN">
+		<description>
+			<p>Starting at 18th level, whenever you deal radiant damage to an undead, you gain that many temporary hit points.</p>
+		</description>
+		<sheet>
+			<description>Whenever you deal radiant damage to an undead, you gain that many temporary hit points.</description>
+		</sheet>
+	</element>
+
+	<!-- Bounty Hunter Specialty -->
+	<element name="Bounty Hunter" type="Archetype" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_BOUNTYHUNTER">
+		<supports>Slayers Specialty</supports>
+		<description>
+			<p>The bounty hunter stalks the most dangerous game. While you're certainly capable of making your way in the wild and tracking down animals, your specialty is in following the trails of persons of interest: wanted criminals, noble rivals, or even the target of your own personal grudge. You focus your talents on finding and apprehending intelligent creatures by sorting through webs of clues, following paper trails, and getting into the heads of your targets.</p>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_GREATEST_DETECTIVE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_THE_GAMES_A_FOOT"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_INSIGHTFUL_COMBAT"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_IMPOSTOR"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_CHECKMATE"/>
+		</description>
+		<sheet display="false">
+			<description>The specialist Bounty Hunter focuses their talents on finding and apprehending intelligent creatures by sorting through webs of clues, following paper trails, and getting into the heads of their targets.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_GREATEST_DETECTIVE" level="3" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_THE_GAMES_A_FOOT" level="3" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_INSIGHTFUL_COMBAT" level="7" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_IMPOSTOR" level="13" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_CHECKMATE" level="18" />
+		</rules>
+	</element>
+	<element name="Greatest Detective" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_GREATEST_DETECTIVE">
+		<description>
+			<p>Starting when you choose this specialty at 3rd level, you have advantage on any Intelligence (Investigation) checks you make in relation to humanoids or other intelligent creatures.</p>
+			<p class="indent">Additionally, whenever you make a Wisdom (Insight) check, you can add your Intelligence modifier to the check.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on any Intelligence (Investigation) checks you make in relation to humanoids or other intelligent creatures. Additionally, whenever you make a Wisdom (Insight) check, you can add your Intelligence modifier to the check. </description>
+		</sheet>
+	</element>
+	<element name="The Game's Afoot" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_THE_GAMES_A_FOOT">
+		<description>
+			<p>Also at 3rd level, you can use an action to designate a specific individual as your nemesis, as long as the individual has an Intelligence score of 6 or higher. You must have a specific individual in mind to select them, but you don't have to know their real name or true form. For example, you can't choose "whoever has been kidnapping the local children," but you could choose a locally infamous outlaw, even if they're known only by a pseudonym.</p>
+			<p class="indent">You have advantage on all ability checks you make to learn, gather, or recall information about your nemesis.</p>
+            <p>You can have only one nemesis at a time. Once you select a nemesis, you cannot select a new one until at least one week has passed. If you choose a new nemesis, the old one ceases to be your nemesis.</p>
+		</description>
+		<sheet>
+			<description>You can use an action to designate a specific individual as your nemesis, as long as the individual has an Intelligence score of 6 or higher. You have advantage on all ability checks you make to learn, gather, or recall information about your nemesis. You can have only one nemesis at a time. Once you select a nemesis, you cannot select a new one until at least one week has passed.</description>
+		</sheet>
+	</element>
+	<element name="Insightful Combat" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_INSIGHTFUL_COMBAT">
+		<description>
+			<p>Starting at 7th level, if the target of your slayer's focus feature has an Intelligence score of 6 or higher, you can add your Intelligence modifier to a weapon attack roll you make against them, or use your reaction to add it to your AC against one of their attacks. You must make this choice after you see the roll but before determining the results.</p>
+			<p class="indent">You can use this feature a number of times equal to your Intelligence modifier (minimum once). You regain all expended uses when you finish a short or long rest.</p>
+		</description>
+		<sheet usage="{{insightful combat:count}}/Short/Long Rest" Reaction="Reaction">
+			<description>As an action, you can open your awareness to detect undead creatures. For the next minute, you know the location of any such creatures within 60 feet of you, even if they are behind total cover.</description>
+		</sheet>		
+		<rules>
+			<stat name="insightful combat:count" value="0" />
+			<stat name="insightful combat:count" value="intelligence:modifier" />
+		</rules>
+	</element>
+	<element name="Impostor" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_IMPOSTOR">
+		<description>
+			<p>At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.</p>
+			<p class="indent">Your ruse is indiscernable to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</p>
+		</description>
+		<sheet>
+			<description>You gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms. Your ruse is indiscernable to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</description>
+		</sheet>
+	</element>
+	<element name="Checkmate" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_CHECKMATE">
+		<description>
+			<p>Beginning at 18th level, you are at your deadliest when you have time to track down and corner your nemesis. If you have completed at least one long rest since selecting your current nemesis, then you always know the location of that nemesis as long as they are within one mile of you. Additionally, the first time you hit a creature with a weapon attack after designating that creature as your nemesis, the attack deals an extra 1d8 damage for each long rest you have completed since they became your nemesis, up to a maximum of 7d8.</p>
+		</description>
+		<sheet>
+			<description>If you have completed at least one long rest since selecting your current nemesis, then you always know the location of that nemesis as long as they are within one mile of you. Additionally, the first time you hit a creature with a weapon attack after designating that creature as your nemesis, the attack deals an extra 1d8 damage for each long rest you have completed since they became your nemesis, up to a maximum of 7d8.</description>
+		</sheet>
+	</element>
+
+	<!-- Monster Hunter Specialty -->
+	<element name="Monster Hunter" type="Archetype" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_MONSTERHUNTER">
+		<supports>Slayers Specialty</supports>
+		<description>
+			<p>Slayers who specialize in hunting down massive beasts and terrible monsters follow the path of the monster hunter. Though you're certainly not incapable of tracking down a cultist or a thief, you're the one who steps forward when a town needs a hero to go out and slay whatever has been
+killing villagers in the forest.</p>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_TITAN_SLAYER"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_LAND'S_STRIDE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_MULTIATTACK_DEFFENSE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_TOUGH_AS_NAILS"/>
+		</description>
+		<sheet display="false">
+			<description>Slayers who specialize in hunting down massive beasts and terrible monsters follow the path of the monster hunter.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_TITAN_SLAYER" level="3" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_LAND'S_STRIDE" level="7" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_MULTIATTACK_DEFFENSE" level="13" />
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_TOUGH_AS_NAILS" level="18" />
+		</rules>
+	</element>
+	<element name="Titan Slayer" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_TITAN_SLAYER">
+		<description>
+			<p>Starting when you choose this specialty at 3rd level, you are especially adept at bringing down mighty prey. The bonus damage from your slayer's focus ability increases by 1d6 if your quarry is Large or larger.</p>
+		</description>
+		<sheet>
+			<description>The bonus damage from your slayer's focus ability increases by 1d6 if your quarry is Large or larger.</description>
+		</sheet>
+	</element>
+	<element name="Land's Stride" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_LAND'S_STRIDE">
+		<description>
+			<p>Starting at 7th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns,
+spines, or a similar hazard.</p>
+			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the entangle spell.</p>
+		</description>
+		<sheet>
+			<description>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns,
+spines, or a similar hazard. In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the entangle spell.</description>
+		</sheet>
+	</element>
+	<element name="Multiattack Defense" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_MULTIATTACK_DEFFENSE">
+		<description>
+			<p>Beginning at 13th level, when a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+		</description>
+		<sheet>
+			<description>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</description>
+		</sheet>
+	</element>
+	<element name="Tough as Nails" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_TOUGH_AS_NAILS">
+		<description>
+			<p>Starting at 18th level, whenever a Large or larger creature uses an ability that forces you to make a saving throw, you make that saving throw with advantage.</p>
+		</description>
+		<sheet>
+			<description>Whenever a Large or larger creature uses an ability that forces you to make a saving throw, you make that saving throw with advantage.</description>
+		</sheet>
+	</element>
+
+	<!-- Ninja Specialty -->
+	<element name="Ninja" type="Archetype" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_SPECIALTY_NINJA">
+		<supports>Slayers Specialty</supports>
+		<description>
+			<p>Slayers who supplement their tracking and slaying abilities with the art of stealth choose the path of the ninja, striking decisively from the shadows and then disappearing.</p>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_UNARMORED_DEFENSE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_CUNNING_SNEAK"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_DISAPPEARANCE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_IMPROVED_DISAPPEARANCE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_DEATH_STRIKE"/>
+		</description>
+		<sheet display="false">
+			<description>You specialize in striking decisively from the shadows and then disappearing.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_UNARMORED_DEFENSE" level="3"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_CUNNING_SNEAK" level="3"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_DISAPPEARANCE" level="7"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_IMPROVED_DISAPPEARANCE" level="13"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_DEATH_STRIKE" level="18"/>
+		</rules>
+	</element>
+	<element name="Unarmored Defense" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_UNARMORED_DEFENSE">
+		<description>
+			<p>Beginning when you choose this specialty at 3rd level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</p>
+		</description>
+		<sheet>
+			<description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defense ninja}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense ninja:base" value="10" />
+			<stat name="ac:unarmored defense ninja:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense ninja:intelligence" value="intelligence:modifier" />
+			<stat name="ac:unarmored defense ninja" value="ac:unarmored defense ninja:base" />
+			<stat name="ac:unarmored defense ninja" value="ac:unarmored defense ninja:dexterity" />
+			<stat name="ac:unarmored defense ninja" value="ac:unarmored defense ninja:intelligence" />
+			<stat name="ac:calculation" value="ac:unarmored defense ninja" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Ninja)" />
+		</rules>
+	</element>
+	<element name="Cunning Sneak" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_CUNNING_SNEAK">
+		<description>
+			<p>Also at 3rd level, whenever you make a Dexterity (Stealth) check, you can add your Intelligence modifier to the check. You can use the Hide action as a bonus action.</p>
+		</description>
+		<sheet>
+		<description>Whenever you make a Dexterity (Stealth) check, you can add your Intelligence modifier to the check. You can use the Hide action as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Disappearance" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_DISAPPEARANCE">
+		<description>
+			<p>At 7th level, you learn how to make yourself disappear. You can cast misty step without using any components. When you cast this spell in this way, you simultaneously become invisible until the end of your next turn. This invisibility ends early if you attack or cast a spell.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{disappearance:count}}/Short/Long Rest">
+			<description> You can cast misty step without using any components. When you cast this spell in this way, you simultaneously become invisible until the end of your next turn. This invisibility ends early if you attack or cast a spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" spellcasting="Wizard" />			
+			<stat name="disappearance:count" value="1" bonus="base" />
+			<stat name="disappearance:count" value="intelligence:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Improved Disappearance" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_IMPROVED_DISAPPEARANCE">
+		<description>
+			<p>Beginning at 13th level, you can cast greater invisibility on yourself without using any components.</p>
+			<p class="indent">Once you use this ability, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description> you can cast greater invisibility on yourself without using any components.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" spellcasting="Wizard" />			
+		</rules>
+	</element>
+	<element name="Death Strike" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_DEATH_STRIKE">
+		<description>
+			<p>Starting at 18th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Intelligence modifier + your proficiency bonus). On a failed save, double the damage of your attack against that creature.</p>
+		</description>
+		<sheet>
+			<description>When you attack and hit a creature that is surprised, it must make a Constitution saving throw. On a failed save, double the damage of your attack against that creature.</description>
+		</sheet>
+	</element>
+
+	<!-- Fiendhunter Specialty -->
+	<element name="Fiend Hunter" type="Archetype" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_SPECIALTY_FIENDHUNTER">
+		<supports>Slayers Specialty</supports>
+		<description>
+			<p>Mortals are right to fear the demons and devils which sometimes cross into the mortal realm from their homes in the lower planes. Even so, some mortals become the object of fear for the fiends. As a fiendhunter, you focus your deadly arts toward hunting and killing infernal creatures.</p>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_SANCTIFIED_HUNTER"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_INFERNAL_RESILIENCE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_PROFANE_VISION"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_BANISHING_STRIKE"/>
+			<div element="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_BALOR_BLADES"/>
+		</description>
+		<sheet display="false">
+			<description>As a fiendhunter, you focus your deadly arts toward hunting and killing infernal creatures.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_SANCTIFIED_HUNTER" level="3"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_INFERNAL_RESILIENCE" level="3"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_PROFANE_VISION" level="7"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_BANISHING_STRIKE" level="13"/>
+			<grant type="Archetype Feature" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_BALOR_BLADES" level="18"/>
+		</rules>
+	</element>
+	<element name="Sanctified Hunter" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_SANCTIFIED_HUNTER">
+		<description>
+			<p>Starting when you choose this specialty at 3rd level, you gain special training for the hunting and killing of infernal creatures. You can speak, read, and write Abyssal and Infernal. Additionally, any weapon you wield counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage, but only against fiends.</p>
+		</description>
+		<sheet>
+			<description>Any weapon you wield counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage, but only against fiends.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_INFERNAL" />
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+		</rules>
+	</element>
+	<element name="Infernal Resilience" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_INFERNAL_RESILIENCE">
+		<description>
+			<p>Also at 3rd level, you become unusually hardy against the foulest of demons and devils. You have resistance to poison damage dealt by fiends, and you have advantage on any saving throws against poison which fiends force you to make.</p>
+			<p class="indent">Once you reach 15th level, you have advantage on any Constitution saving throw you make against a spell or ability of a fiend.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to poison damage dealt by fiends, and you have advantage on any saving throws against poison which fiends force you to make. Once you reach 15th level, you have advantage on any Constitution saving throw you make against a spell or ability of a fiend.</description>
+		</sheet>
+	</element>
+	<element name="Profane Vision" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_PROFANE_VISION">
+		<description>
+			<p>Beginning at 7th level, fiends can no longer hide from your gaze. If a fiend you can see within 120 feet is using the shapechanger ability or is transformed or disguised by magic, you can perceive its true form.</p>
+		</description>
+		<sheet>
+			<p>If a fiend you can see within 120 feet is using the shapechanger ability or is transformed or disguised by magic, you can perceive its true form.</p>
+		</sheet>
+	</element>
+	<element name="Banishing Strike" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_BANISHING_STRIKE">
+		<description>
+			<p>At 13th level, you learn how to send fiends back to their pits. When you hit a fiend with a weapon attack, you can cast banishment on that fiend as a bonus action without using any components. The save DC for this spell is equal to 8 + your Intelligence modifier + your proficiency bonus.</p>
+			<p class="indent">Once you use this ability, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description> You can cast banishment without using any components.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" />			
+		</rules>
+	</element>
+	<element name="Balor Blades" type="Archetype Feature" source="Purple Aether Games" id="ID_JACOBSKELLOGG_DMSGUILD_SPECIALTY_FEATURE_BALOR_BLADES">
+		<description>
+			<p>Starting at 18th level, your attacks are as vicious as those of the foulest pit-spawn. Whenever you score a critical hit with a weapon attack against a fiend, roll the damage dice three times instead of twice.</p>
+		</description>
+		<sheet>
+			<description>Whenever you score a critical hit with a weapon attack against a fiend, roll the damage dice three times instead of twice.</description>
+		</sheet>
+	</element>
+</elements>
